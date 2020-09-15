@@ -94,3 +94,5 @@ docker/db/pgdata/
 
 # Static Files
 static/
+
+.projectile

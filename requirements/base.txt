@@ -1,5 +1,5 @@
 # Django
-Django==2.2.16
+Django==3.1.1
 django-environ==0.4.5
 
 # Images
@@ -9,6 +9,7 @@ django-versatileimagefield==2.0
 # REST Framework
 djangorestframework==3.11.1
 django-cors-headers==3.4.0
+djangorestframework-simplejwt==4.4.0 
 
 # Database
 psycopg2-binary==2.8.6
@@ -21,3 +22,7 @@ gunicorn==20.0.4
 
 # Sentry
 sentry-sdk==0.17.4
+
+#extensions
+django-extensions==3.0.8
+Werkzeug==1.0.1

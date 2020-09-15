@@ -1,20 +1,18 @@
 version: "3"
 services:
-  web:
+  reservaos:
+    restart: always
     build: .
     volumes:
       - .:/usr/src/app
     ports:
-      - 8000:8000
+      - 7000:7000
     environment:
       ENV: development
-
   db:
-    image: postgres:12
+    image: postgres:13
     ports:
-      - 5432:5432
-    volumes:
-      - ./docker/db/pgdata:/var/lib/postgresql/data
+      - 6000:5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
