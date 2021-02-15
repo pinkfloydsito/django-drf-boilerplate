@@ -21,7 +21,7 @@ whitenoise==5.2.0
 gunicorn==20.0.4
 
 # Sentry
-sentry-sdk==0.17.4
+sentry-sdk==0.20.1
 
 #extensions
 django-extensions==3.0.8
